@@ -110,7 +110,7 @@
         speed: 40,  //滚动速度
         scroller: '.kd-scroller',//滚动元素钩子
         vertical: false,//是否垂直滚动
-        step: 1,//每次滚动像素
+        step: 1//每次滚动像素
     };
 
 })(jQuery);
