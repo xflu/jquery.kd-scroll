@@ -1,5 +1,4 @@
-﻿/**今点连续滚动插件 
-	v1.0	2013-7-12 by Will
+﻿/**今点连续滚动插件 2013-7-12 by Will
 */
 
 //创建一个闭包
@@ -59,7 +58,7 @@
             for (var i = 1; i < ratio; i++) {
                 repeatScroller += repeatHtml;
             }
-            $this.find('.kd-scroller-horizontal-container').css('width','30000px').append(repeatScroller);
+            $this.find('.kd-scroller-horizontal-container').append(repeatScroller);
         }
 
         //循环滚动
@@ -111,7 +110,7 @@
         speed: 40,  //滚动速度
         scroller: '.kd-scroller',//滚动元素钩子
         vertical: false,//是否垂直滚动
-        step: 1,//每次滚动像素
+        step: 1//每次滚动像素
     };
 
 })(jQuery);
