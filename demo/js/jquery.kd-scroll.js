@@ -101,7 +101,7 @@
     function debug(msg) {
         if (window.console && window.console.log) {
             var now = new Date();
-            window.console.log(now.getHours + ':' + now.getMinutes + ':' + now.getSeconds + '  ' + msg);
+            window.console.log(now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds() + '  ' + msg);
         }
     };
 
